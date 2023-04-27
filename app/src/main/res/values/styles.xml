@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CustomToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="CustomToolbarSubtitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.HeadlineSmall   </item>
+    </style>
+    <style name="MySliderTooltipStyle" parent="Widget.MaterialComponents.Tooltip">
+        <item name="android:background">@drawable/slider_tooltip_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MySliderStyle" parent="Widget.MaterialComponents.Slider">
+        <item name="tooltipFrameBackground">@drawable/spinner_background</item>
+    </style>
+    <style name="SpinnerItemStyle" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:textSize">8dp</item>
+    </style>
+    <style name="Tooltip" parent="Widget.MaterialComponents.Tooltip">
+        <item name="android:textAppearance">@style/TextAppearance.Tooltip</item>
+        <item name="backgroundTint">@color/navyBlue</item>
+    </style>
+
+    <style name="TextAppearance.Tooltip" parent="TextAppearance.MaterialComponents.Tooltip">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

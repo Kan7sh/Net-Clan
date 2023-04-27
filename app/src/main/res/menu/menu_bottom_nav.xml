@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/bottomMenuRefine"
+        android:title="Refine"
+        android:icon="@drawable/refine"
+        android:iconTint="#768C98"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bottomMenuExplore"
+        android:title="Explore"
+        android:icon="@drawable/eye"
+        app:showAsAction="ifRoom"
+        android:iconTint="#768C98"
+
+        />
+
+
+</menu>
